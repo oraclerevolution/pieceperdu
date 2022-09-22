@@ -56,10 +56,11 @@ export default function App() {
 
   const MyStack = () => {
     return (
-      <Stack.Navigator initialRouteName='Login' screenOptions={{ headerShown: false }}>
+      <Stack.Navigator initialRouteName='Steppers' screenOptions={{ headerShown: false }}>
         <Stack.Screen name="Tabs" component={MyTabs} />
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Register" component={Register} />
+        <Stack.Screen name="Steppers" component={Steppers} />
       </Stack.Navigator>
     );
   }
